@@ -9,7 +9,7 @@ should_continue = True
 
 while should_continue:
     print("=" * 50)
-    guess = int(input("Guess a number between 1 - 5\n"))
+    guess = int(input("Guess a number between 1 - 10\n"))
     if guess > secret_num:
         print("=" * 50)
         print("Lower\n")
